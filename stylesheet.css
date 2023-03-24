@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    overflow-y: visible;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(59, 59, 59);
+    display: block;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header {
+    margin-top: -138px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 142px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    z-index: 2;
+}
+
+header>img {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.sec2>img {
+    margin-right: -50px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul {
+    margin-right: 10px;
+}
+
+main {
+    z-index: 1;
+    position: relative;
+    margin-top: 135px;
+    margin-bottom: 500px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 1.4px;
+    margin-top: 42px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input {
+    font-size: large;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+.b2 {
+    margin-top: 10px;
+    width: 150px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background-color: rgb(255, 209, 64);
+    font-size: large;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+p {
+    letter-spacing: 1px;
+    padding-top: 50px;
+    margin-left: -150px;
+}
+
+.sec2 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+h2 {
+    overflow: visible;
+    display: inline;
+    white-space: nowrap;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+.sec3 {
+    margin-top: 50px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.t {
+    display: flex;
+    min-width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 1px;
+    font-size: 30px;
+    background-color: rgb(29, 29, 29);
+}
+
+.p {
+    text-align: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+span {
+    font-weight: 20px;
+    margin-top: -500px;
+    margin-left: 140px;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.t>.p2 {
+    margin-top: -50px;
+    margin-right: -140px;
+}
+
+.b {
+    margin-top: 10px;
+    margin-left: 93px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(55, 111, 160);
+    font-size: large;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(29, 29, 29);
+    margin-top: -150px;
+    padding-bottom: 40px;
+}
+
+footer>p {
+    padding: 10px 0 0 0;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 560px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1075px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1135px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .sec2>p {
+        padding-right: 80px;
+    }
+}
