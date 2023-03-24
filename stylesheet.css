@@ -24,7 +24,7 @@ a {
 header {
     margin-top: -138px;
     background-color: rgb(29, 29, 29);
-    width: 100%;
+    width: 100vw;
     height: 142px;
     position: fixed;
     display: flex;
@@ -88,6 +88,7 @@ input {
 }
 
 .b2 {
+    color: black;
     margin-top: 10px;
     width: 150px;
     height: 25px;
@@ -169,6 +170,7 @@ span {
 }
 
 .b {
+    color: black;
     margin-top: 10px;
     margin-left: 93px;
     margin-bottom: 20px;
@@ -183,6 +185,8 @@ span {
 }
 
 footer {
+    display: block;
+    width: 100vw;
     text-align: right;
     background-color: rgb(29, 29, 29);
     margin-top: -150px;
@@ -223,6 +227,96 @@ iframe {
         background-color: rgb(29, 29, 29);
         margin-top: 1135px;
         padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1300px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1350px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1450px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1499px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1600px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1650px;
+        padding-bottom: 40px;
+    }
+
+    iframe {
+        width: auto;
+        height: 400px;
+        margin-top: 10px;
     }
 }
 
