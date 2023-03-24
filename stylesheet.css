@@ -338,26 +338,21 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 1100px;
+        margin-top: 1600px;
         padding-bottom: 40px;
     }
 }
 
-@media screen and (min-height: 447px) {
-    footer {
-        text-align: right;
-        background-color: rgb(29, 29, 29);
-        margin-top: 1000px;
-        padding-bottom: 40px;
-    }
-}
-
-@media screen and (min-height: 224px) {
+@media screen and (max-height: 390px) {
     header {
         width: 100vw;
     }
 
     footer {
         width: 100vw;
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1200px;
+        padding-bottom: 40px;
     }
 }
