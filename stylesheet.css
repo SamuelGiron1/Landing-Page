@@ -2,7 +2,6 @@
 
 * {
     overflow-y: visible;
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -323,5 +322,42 @@ iframe {
 @media screen and (max-width: 772px) {
     .sec2>p {
         padding-right: 80px;
+    }
+}
+
+@media screen and (min-height: 434px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1200px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-height: 447px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1100px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-height: 447px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 1000px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-height: 224px) {
+    header {
+        width: 100vw;
+    }
+
+    footer {
+        width: 100vw;
     }
 }
