@@ -348,6 +348,15 @@ iframe {
     }
 }
 
+@media screen and (max-height: 844px) {
+    footer {
+        text-align: right;
+        background-color: rgb(29, 29, 29);
+        margin-top: 950px;
+        padding-bottom: 40px;
+    }
+}
+
 @media screen and (max-height: 390px) {
     footer {
         text-align: right;
