@@ -75,6 +75,7 @@ main {
 }
 
 h1 {
+    padding-right: 20px;
     letter-spacing: 1.4px;
     margin-top: 42px;
 }
@@ -228,7 +229,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 650px;
+        margin-top: 690px;
         padding-bottom: 40px;
     }
 }
@@ -246,7 +247,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 720px;
+        margin-top: 745px;
         padding-bottom: 40px;
     }
 
@@ -261,7 +262,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 850px;
+        margin-top: 875px;
         padding-bottom: 40px;
     }
 
@@ -276,7 +277,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 900px;
+        margin-top: 940px;
         padding-bottom: 40px;
     }
 
@@ -291,7 +292,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 900px;
+        margin-top: 1050px;
         padding-bottom: 40px;
     }
 
@@ -306,7 +307,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 930px;
+        margin-top: 1050px;
         padding-bottom: 40px;
     }
 
@@ -321,7 +322,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 930px;
+        margin-top: 1070px;
         padding-bottom: 40px;
     }
 
@@ -336,7 +337,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 1050px;
+        margin-top: 1130px;
         padding-bottom: 40px;
     }
 
