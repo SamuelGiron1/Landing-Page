@@ -21,6 +21,7 @@ a {
 }
 
 header {
+    overflow-x: hidden;
     margin-top: -138px;
     background-color: rgb(29, 29, 29);
     width: 100vw;
@@ -170,6 +171,7 @@ span {
 
 .t>.p2 {
     margin-top: -50px;
+    margin-right: -140px;
 }
 
 .b {
@@ -188,6 +190,7 @@ span {
 }
 
 footer {
+    overflow-x: hidden;
     position: absolute;
     width: 100vw;
     text-align: right;
@@ -351,7 +354,7 @@ iframe {
     footer {
         text-align: right;
         background-color: rgb(29, 29, 29);
-        margin-top: 900px;
+        margin-top: 930px;
         padding-bottom: 40px;
     }
 }
