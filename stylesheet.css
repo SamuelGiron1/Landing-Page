@@ -192,7 +192,7 @@ span {
 footer {
     overflow-x: hidden;
     position: absolute;
-    width: 150vw;
+    width: 100vw;
     text-align: right;
     background-color: rgb(29, 29, 29);
     margin-top: -100px;
